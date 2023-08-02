@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Signup Form</title>
+    <style>
+        body {
+        
+            font-family: Arial, sans-serif;
+            text-align: center;
+            
+            height: 100vh;
+            width: 1500px;
+           background-color: #810320;
+
+        }
+        nav {
+          background-color: #810320;
+          color: #fff;
+          display: flex;
+          justify-content: center;
+          padding: 10px;
+          margin: 0px;
+          height: 40px;
+        }
+    
+        /* Style for the nav bar links */
+        nav a {
+          color: #fff;
+          text-decoration: none;
+          margin: 0 10px;
+          font-weight: 400;
+          font-size: 25px;
+        }
+    
+        /* Style for the nav bar links on hover */
+        nav a:hover {
+          color: rgb(10, 10, 221);
+        }
+     .logo{
+        padding-top: 5px;
+        padding-left: 70px;
+     }
+     .active{
+  color:yellow;
+}
+        .login-form {
+            width: 100%;
+            height: 480px;
+            margin: 0 0px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+          display: flex;
+          background-color: #fff;
+           padding-left: 600px;
+           
+        }
+        .login-form label{
+            display: block;
+            margin-bottom: 10px;
+            height: 30px;
+            width: 250px; 
+            margin-left: -50px;
+            font-size: 20px;
+        }
+        .login-form input {         
+            display: block;
+            margin-bottom: 10px;
+            height: 50px;
+            width: 700px;
+            background-color: #fff;
+            border: none;
+            border: 1px solid;
+            border-radius: 5px;
+        }
+        .check{
+            margin-left: -50px;
+        }
+        .inputsubmit {
+            background-color: black;
+            color: white;
+            border: none;
+            padding: 0px;
+            cursor: pointer;
+            border-radius: 5px;
+            width: 700px;
+            height: 50px;
+            font-size: large;
+        }
+        .inputsubmit a{
+            color: white;
+            text-decoration: none;
+            
+        }
+        .inputsubmit:hover{
+    background-color:rgb(12, 134, 18);
+    color: #fff;
+        }
+        button{
+           margin-left: 0px;
+           width: 100px;
+           height: 30px;
+           font-size: large;
+           background-color: #810320;
+           border-radius: 5px;
+           margin-bottom: 10px;
+           color: #fff;
+           margin-left: 15px;
+        }
+        button:hover{
+            background-color: #4CAF50;
+            border: none;
+            border-radius: 5px;
+        }
+
+        /* check box css */
+
+        input[type="checkbox"] {
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            width: 23px;
+            height: 23px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            outline: none;
+            background-color: #810320;
+            cursor: pointer;
+            margin-left: 100px;
+        }
+        input[type="checkbox"]:checked {
+            background-color: #007BFF; /* Change the background color when checked */
+        }
+        input[type="checkbox"]:checked::before {
+            content: "\2713"; /* Unicode checkmark symbol */
+            display: block;
+            text-align: center;
+            color: white;
+        }
+        .footerlower{
+  height: 130px;
+  width: 100%;
+  background-color: #810320;
+  border: 1px black;
+  border-radius: 10px;
+  padding: 20px;
+  color:white;
+  padding-top: 70px;
+  font-size: Poppins;
+  justify-content: center;
+}
+.footerlower h2,h3,h4{
+    text-align: center;
+    margin-left: 450px;
+    margin-top: 0%;
+}
+    </style>
+</head>
+<body>
+    <!-- <div style="width: 942px; border-radius: 5px; background: linear-gradient(to right, #c0bdbd, #FFFFFF);margin-left: 320px; height: 60px; padding-top: 1px;"> -->
+        <nav>
+            <a href="HomePage.html">Home</a>
+           
+            <a href="#" class="active">SignIn</a>
+            <a href="HomePage.html #footer">Contact</a>
+            <a href="LoginForm.html">Orders</a>
+          </nav>
+
+    <div class="login-form">
+       
+        <form action="/login" method="post">
+            <h2 style="text-align: center;">Login in</h2>
+            <p style="color: blue; letter-spacing: 2px; text-align: center;">Sign in with your name and password</p>
+            <label for="username">your user-name:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Your password:</label>
+            <input type="password" id="password" name="password" required>
+            <div class="check">
+                <label for="" style="display: flex; font-size:18px; padding-left: -70px;"><input type="checkbox" >
+                    Remember me
+                </label>
+            </div>
+            
+<table>
+    
+    <tr>
+        <td><button class="inputsubmit" style="margin-left: -6px;"><a href="odersheet.html">Log In</a></button></td>    
+    </tr>  
+</table>    
+        </form>
+    </div>
+
+    <div class="footerlower">
+        <h1 style="text-align: center; margin-left: 400px;">RELIQO WHOLESALE COMPANY</h1>     
+        <h3 style="font-size: 20px; letter-spacing: 0.5px;">Location <span>: Victoria Towers, 1-13 Jinja Road, in the central business district of Kampala</span></h3>
+<h3 style="font-size: 20px; letter-spacing: 2px;font-family:Poppins Extra light">Tel : +256 700 222 333 &nbsp;/&nbsp; +256 776 666 999. Email: admissions@vu.ac.ug marketing@vu.ac.ug</h3>
+        </div>
+</body>
+</html>

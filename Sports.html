@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>| Sports</title>
+</head>
+<body>
+<style>
+    body{
+          padding: 10px;
+        }
+    
+        /* Style for the nav bar container */
+        nav {
+          background-color: #810320;
+          color: #fff;
+          display: flex;
+          justify-content: center;
+          padding: 10px;
+          margin: 0px;
+          height: 50px;
+        }
+    
+        /* Style for the nav bar links */
+        nav a {
+          color: #fff;
+          text-decoration: none;
+          margin: 0 10px;
+          font-weight: 400;
+          font-size: 25px;
+        }
+    
+        /* Style for the nav bar links on hover */
+        nav a:hover {
+          color: rgb(10, 10, 221);
+        }
+     .logo{
+        padding-top: 5px;
+        padding-left: 70px;
+     }
+     .active{
+  color:yellow;
+}
+     .maindiv{
+      height: 500px;
+      width: 1600px;
+      background-color: bisque;
+      background-image: url(./images/MAIN\ DIV.jpg); 
+      background-size: cover;
+   }
+   p{
+      font-size: 30px;
+      color: #fff;
+      padding-left: 20px;
+      padding-top: 20px;
+   }
+  /*              search bar css             */
+  input[type="text"] {
+  margin-top: 10px;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  margin-left: 50px;
+  width: 1300px;
+  padding-left: 30px;
+}
+.products{
+  display: flex;
+  padding-top: 20px;
+  justify-content:center;
+}
+.product{
+  border: 1px solid;
+  width: 480px;
+  background-color:#fff;
+  height: 520px;
+  margin-left: 20px;
+  border-radius: 10px;
+  padding-top: 10px;
+}
+.product img:hover{
+  width: 370px;
+  height: 400px;
+}
+.product img{
+  margin-left: 38px;
+  width: 400px;
+  height: 380px;
+  border-radius: 10px;
+}
+h4,h5,h6,h3{
+  text-align: center;
+}
+p{
+  font-size: 15px;
+  padding-top: 0%;
+  text-align: center;
+}
+p:hover{
+font-size:  20px;
+}
+.footerlower{
+  height:180px;
+  width: 100%;
+  background-color: #810320;
+  border: 1px black;
+  border-radius: 10px;
+  padding: 20px;
+  padding-top: 60px;
+  color: white;
+  font-family: Poppins;
+}
+.footerlower h2,h3,h4{
+  text-align: center;
+}
+p a{
+  font-size: 22px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: 900 ;
+}
+p a:hover{
+  text-decoration: underline;
+  color: blue;
+}
+</style>
+    <div style="display: flex;" >
+        <div class="logo" >
+          <img src="./images/wholeSALE LOGO-01.png" width="50" height="50" alt="">
+      </div>
+      <div> <input type="text" placeholder="Search....."></div>
+      <div><img src="./images/search.jpg" width="40" height="40" style="border-radius: 20%; padding-top: 11px; border-radius: 5px;" alt=""></div>
+   <div style="border-radius: 50%; width: 55px; height: 60px; background-color: white; padding-left: 20px;margin-left: 60px;"><img src="./images/cart icon.jpg" width="40" height="40" style="border-radius: 20%; padding-top: 11px; border-radius: 5px;" alt=""></div>
+      </div>
+      <nav>
+        <a href="HomePage.html">Home</a>
+        <a href="HomePage.html #footer">About</a>
+        <a href="LoginForm.html">SignIn</a>
+        <a href="HomePage.html #footer">Contact</a>
+        <a href="Sports" class="active">Sports</a>
+        <a href="LoginForm.html">Orders</a>
+      </nav>
+
+    <!-----------sports products----------------->
+    <h1 style="text-align: center; margin-top: 10PX; text-decoration: underline;">SPORTS WEAR</h1>
+    <div class="products">
+        <div class="product">
+          <img src="./images/SPORTS/shirts.jpg" alt="">
+          <h3>MOQ 10  : Mens shirt</h3>
+          <h4>US $50</h4>
+          <p><a href="LoginForm.html">BUY NOW</a></p>
+        </div>
+        <div class="product">
+          <img src="./images/SPORTS/volley jersey.jpg" alt="">
+          <h3> VOLLEY JERSEY</h3>
+          <h4>US $50</h4>
+          <p><a href="LoginForm.html">BUY NOW</a></p>
+        </div>
+        <div class="product">
+          <img src="./images/SPORTS/sportsjersey.webp" alt="">
+          <h3> CUSTOM SPORTS WEAR</h3>
+          <h4>US $50</h4>
+          <p><a href="odersheet.html">BUY NOW</a></p>
+        </div>
+      </div>
+      <!------- another group of products ------>
+      <h1 style="text-align: center; margin-top: 10PX; text-decoration: underline;">FOOT WEAR</h1>
+      <div class="products">
+        <div class="product">
+          <img src="./images/SPORTS/shoes.jpg" alt="">
+          <h3>MOQ 20  :tiffany</h3>
+          <h4>US $50</h4>
+          <p><a href="LoginForm.html">BUY NOW</a></p>
+        </div>
+        <div class="product">
+          <img src="./images/SPORTS/sportsshoes2.webp" alt="">
+          <h3>MOQ 15  :Sary</h3>
+          <h4>US $50</h4>
+          <p><a href="LoginForm.html">BUY NOW</a></p>
+        </div>
+        <div class="product">
+          <img src="./images/SPORTS/sportsshoes3.webp" alt="">
+          <h3>MOQ 25  :Cleo</h3>
+          <h4>US $50</h4>
+          <p><a href="LoginForm.html">BUY NOW</a></p>
+        </div>
+      </div>
+       <!------- another group of products ------>
+       <h1 style="text-align: center; margin-top: 20PX; text-decoration: underline;">SPORTS UTILITY</h1>
+       <div class="products">
+        <div class="product">
+          <img src="./images/SPORTS/Volley Ball.jpg" alt="">
+          <h3>VOLLEY UTILITY</h3>
+          <h4>MOQ 10 : US $50</h4>
+          <p><a href="LoginForm.html">BUY NOW</a></p>
+        </div>
+        <div class="product">
+          <img src="./images/SPORTS/football.jpg " alt="">
+          <h3>MOQ 50  :FOOTBALL</h3>
+          <h4>US $50 each</h4>
+          <p><a href="LoginForm.html">BUY NOW</a></p>
+        </div>
+        <div class="product">
+          <img src="./images/SPORTS/shoes and ball.jpg" alt="">
+          <h3>MOQ 50 : VOLLEYBALL </h3>
+          <h4>US $50 each</h4>
+          <p><a href="LoginForm.html">BUY NOW</a></p>
+        </div>
+      </div>
+    <br>
+      <div style="background-color: #810320; height: 10px; width:100%;"></div>
+      <div class="footerlower">
+        <h1 style="text-align: center; font-family:Poppins ;margin-top: 1px;">RELIQO WHOLESALE COMPANY</h1>
+        <h3 style="font-size: 20px; letter-spacing: 1px; margin-top: 0%;">Location <span>: Victoria Towers, 1-13 Jinja Road, in the central business district of Kampala</span></h3>
+<h3 style="font-size: 20px; letter-spacing: 2px;">Tel : +256 700 222 333 &nbsp;/&nbsp; +256 776 666 999. Email: admissions@vu.ac.ug marketing@vu.ac.ug</h3>
+        </div>
+</body>
+</html>
